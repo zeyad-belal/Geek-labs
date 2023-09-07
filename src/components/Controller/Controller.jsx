@@ -20,7 +20,7 @@ export default function Controller({projects,currImgIndex,setCurrImgIndex}) {
     <div className="control">
       <img src="/public/left.png" alt="" onClick={()=> handleChange('-')} />
         <div className="content">
-          <h1 className="project-name">{projects[currImgIndex].name}</h1>
+          <h1 className="project-name"> <img src="/public/tick.png" alt="" className="tick" />  {projects[currImgIndex].name}</h1>
           <p className="description">{projects[currImgIndex].description} </p>
         </div>
       <img src="/public/right.png" alt="" onClick={()=> handleChange('+')} />
