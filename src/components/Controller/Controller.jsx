@@ -18,12 +18,12 @@ export default function Controller({projects,currImgIndex,setCurrImgIndex}) {
 
   return (
     <div className="control">
-      <img src="/public/left.png" alt="" onClick={()=> handleChange('-')} />
+      <img src="/left.png" alt="" onClick={()=> handleChange('-')} />
         <div className="content">
           <h1 className="project-name">{projects[currImgIndex].name}</h1>
           <p className="description">{projects[currImgIndex].description} </p>
         </div>
-      <img src="/public/right.png" alt="" onClick={()=> handleChange('+')} />
+      <img src="/right.png" alt="" onClick={()=> handleChange('+')} />
     </div>
   );
 }
