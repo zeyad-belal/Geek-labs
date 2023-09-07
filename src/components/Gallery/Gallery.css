@@ -1,0 +1,54 @@
+.gallery{
+  margin-left: -8%;
+  flex-grow: 2;
+  position: relative;
+}
+
+
+.images-container {
+  height: 748px;
+  display: flex;
+  transform: translateY(12%);
+}
+
+
+.image-placeholder{
+  height: 500px;
+  cursor: pointer;
+  width: 20%;
+  transform: skew(-15deg);
+  overflow: hidden;
+  position: relative;
+  margin-right: 2%;
+}
+
+.image-placeholder.active{
+  width: 100%;
+  transition: all 1s;
+}
+
+
+.image-div {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 330%;
+  transform: skew(15deg);
+  position: absolute;
+  left: -111%;
+}
+
+
+
+.see-all{
+  color: #00FFBD;
+  position: absolute;
+  right: -130px;
+  cursor: pointer;
+}
+
+.see-all:hover{
+  color: #01c08d;
+
+}

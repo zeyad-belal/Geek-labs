@@ -1,0 +1,40 @@
+.control{ 
+  max-width: 30%;
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  position: relative;
+  height: fit-content;
+  gap: 20px;
+}
+
+.control img{
+  max-width: 15px;
+  cursor: pointer;
+}
+
+
+
+.content{
+  text-align: start;
+}
+
+
+.project-name{
+  color:white;
+  margin: 0 0 15px 0;
+  font-weight: 200;
+
+}
+
+.description{
+  margin: 0;
+  font-weight: 100;
+  color: rgba(161, 161, 161, 0.53);
+  max-width: 300px;
+}
+
+
+
