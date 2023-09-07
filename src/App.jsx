@@ -30,6 +30,7 @@ function App() {
 
   return (
     <div className='main'>
+      {modalIsShown && <div className='overlay' onClick={()=>setModalIsShown(false)}></div>}
       <button className='add-project' onClick={toggleModal}>Add Project</button>
       {modalIsShown && <AddProject toggleModal={toggleModal} setProjects={setProjects}  />}
 

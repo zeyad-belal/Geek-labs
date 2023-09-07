@@ -23,7 +23,7 @@
   color: white;
   border-radius: 8px;
   padding: 5px 7px;
-  z-index: 99;
+  z-index: 99999;
   position: absolute;
   right: 3%;
   top: 14%;
@@ -32,4 +32,12 @@
 
 .add-project:hover{
   background-color: rgb(176, 4, 4);
+}
+
+.overlay{
+  background-color: rgba(0, 0, 0, 0.589);
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  z-index: 9999;
 }
