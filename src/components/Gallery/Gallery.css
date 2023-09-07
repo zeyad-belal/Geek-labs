@@ -1,7 +1,7 @@
 .gallery{
   margin-left: -8%;
   flex-grow: 2;
-  position: relative;
+  /* position: relative; */
 }
 
 
@@ -51,4 +51,26 @@
 .see-all:hover{
   color: #01c08d;
 
+}
+
+.dots{
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  gap: 5px;
+  position: absolute;
+  bottom: 0;
+  left: 20%;
+  color: white;
+}
+
+.dot{
+  border: 1px solid white;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+}
+
+.dot.active{
+  background-color: #00FFBD;
 }

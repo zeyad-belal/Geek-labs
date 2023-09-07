@@ -31,6 +31,14 @@ export default function Gallery({currImgIndex, projects }) {
           );
         })}
       </div>
+      <div className='dots'>
+        {projects.map((project,index)=>{
+            let isActive = false;
+            {projects[currImgIndex].imageSrc ==  project.imageSrc ? isActive = true : isActive = false }
+          return (
+            <span key={index} className={`dot  ${isActive ? 'active' : ''}`} ></span>
+          )
+      })}</div>
     </div>
   );
 }
