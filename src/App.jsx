@@ -9,12 +9,11 @@ import './fonts/Hellix-Bold.ttf';
 function App() {
 
   const [projects , setProjects] =useState([
-    {imageSrc : '/images/anders-drange-okxqeyvAArU-unsplash.jpg' , name : 'Project name 1' , description : 'ONE lorem ipsum dolor sit amet consectetur adipisicing elit. Modi delectusquibusdam suscipit deleniti sequi officia as sumenda totam liberodicta, ducimus a hic, possimus enim odio ipsum, reiciendis nemoexpedita labore'},
-    {imageSrc : '/images/bao-menglong-vNKOJ_k-xo-unsplash.jpg' , name : 'Project name 2' , description : 'TWO lorem ipsum dolor sit amet consectetur adipisicing elit. Modi delectusquibusdam suscipit deleniti sequi officia as sumenda totam liberodicta, ducimus a hic, possimus enim odio ipsum, reiciendis nemoexpedita labore'},
-    {imageSrc : '/images/kouji-tsuru-lQB9glQXglw-unsplash.jpg' , name : 'Project name 3' , description : 'THREE lorem ipsum dolor sit amet consectetur adipisicing elit. Modi delectusquibusdam suscipit deleniti sequi officia as sumenda totam liberodicta, ducimus a hic, possimus enim odio ipsum, reiciendis nemoexpedita labore'},
-    {imageSrc : '/images/mark-mc-neill-Q1zvqzJaJh0-unsplash.jpg' , name : 'Project name 4' , description : 'FOUR lorem ipsum dolor sit amet consectetur adipisicing elit. Modi delectusquibusdam suscipit deleniti sequi officia as sumenda totam liberodicta, ducimus a hic, possimus enim odio ipsum, reiciendis nemoexpedita labore'},
-    {imageSrc : '/images/rob-potter-BP_PVA3YdbU-unsplash.jpg' , name : 'Project name 5' , description : 'FIVE lorem ipsum dolor sit amet consectetur adipisicing elit. Modi delectusquibusdam suscipit deleniti sequi officia as sumenda totam liberodicta, ducimus a hic, possimus enim odio ipsum, reiciendis nemoexpedita labore'},
-    {imageSrc : '/images/satya-deep-SmeZVazNQbQ-unsplash.jpg' , name : 'Project name 6' , description : 'SIX lorem ipsum dolor sit amet consectetur adipisicing elit. Modi delectusquibusdam suscipit deleniti sequi officia as sumenda totam liberodicta, ducimus a hic, possimus enim odio ipsum, reiciendis nemoexpedita labore'}
+    {imageSrc : '/images/n.jpg' , name : 'Project name 1' , description : 'ONE lorem ipsum dolor sit amet consectetur adipisicing elit. Modi delectusquibusdam suscipit deleniti sequi officia as sumenda totam liberodicta, ducimus a hic, possimus enim odio ipsum, reiciendis nemoexpedita labore'},
+    {imageSrc : '/images/n2.jpg' , name : 'Project name 2' , description : 'TWO lorem ipsum dolor sit amet consectetur adipisicing elit. Modi delectusquibusdam suscipit deleniti sequi officia as sumenda totam liberodicta, ducimus a hic, possimus enim odio ipsum, reiciendis nemoexpedita labore'},
+    {imageSrc : '/images/n3.jpg' , name : 'Project name 3' , description : 'THREE lorem ipsum dolor sit amet consectetur adipisicing elit. Modi delectusquibusdam suscipit deleniti sequi officia as sumenda totam liberodicta, ducimus a hic, possimus enim odio ipsum, reiciendis nemoexpedita labore'},
+    {imageSrc : '/images/n4.jpg' , name : 'Project name 4' , description : 'FOUR lorem ipsum dolor sit amet consectetur adipisicing elit. Modi delectusquibusdam suscipit deleniti sequi officia as sumenda totam liberodicta, ducimus a hic, possimus enim odio ipsum, reiciendis nemoexpedita labore'},
+    {imageSrc : '/images/n5.jpg' , name : 'Project name 5' , description : 'FIVE lorem ipsum dolor sit amet consectetur adipisicing elit. Modi delectusquibusdam suscipit deleniti sequi officia as sumenda totam liberodicta, ducimus a hic, possimus enim odio ipsum, reiciendis nemoexpedita labore'},
   ]);
 
 

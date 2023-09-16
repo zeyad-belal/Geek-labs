@@ -13,7 +13,7 @@ export default function AddProject({toggleModal,setProjects}) {
     // if its an image
     if (type === "file") {
       const imageURL = URL.createObjectURL(e.target.files[0])
-      setFormData({ ...formData, [name]: imageURL });
+      setFormData({ ...formData, image: imageURL });
     } else {
       setFormData({ ...formData, [name]: value });
     }
